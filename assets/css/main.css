@@ -1516,6 +1516,9 @@ section,
     font-size: 2rem;
   }
 }
+#services .icon i {
+    color: #ff7a00 !important;
+  }
 
 /*--------------------------------------------------------------
 # Faq Section
