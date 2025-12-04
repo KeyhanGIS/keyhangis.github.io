@@ -1283,6 +1283,15 @@ section,
   transform: scale(1.1);
 }
 
+.portfolio .portfolio-card .portfolio-overlay .portfolio-actions a.youtube-link {
+  position: relative;
+}
+
+.portfolio .portfolio-card .portfolio-overlay .portfolio-actions a.youtube-link:hover {
+  background-color: #e87532;
+  color: var(--contrast-color);
+}
+
 .portfolio .portfolio-card .portfolio-content {
   padding: 25px;
 }
@@ -1313,6 +1322,16 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin: 0;
   line-height: 1.6;
+}
+
+.portfolio .portfolio-card .portfolio-content .description {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio .portfolio-card .portfolio-content .description ul {
+  flex-grow: 1;
 }
 
 @media (max-width: 768px) {
@@ -2059,4 +2078,72 @@ section,
   font-size: 18px;
   line-height: 1.8;
   color: #444;
+}
+
+/* Demo Video Link Styling */
+.demo-video-link-wrapper {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.demo-video-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--accent-color);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 4px 0;
+}
+
+.demo-video-link i {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.demo-video-link:hover {
+  color: var(--accent-color);
+}
+
+.demo-video-link:hover i {
+  transform: scale(1.15);
+}
+
+/* Source Code Link Styling */
+.source-code-link-wrapper {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.source-code-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--default-color);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 4px 0;
+}
+
+.source-code-link i {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.source-code-link:hover {
+  color: var(--accent-color);
+}
+
+.source-code-link:hover i {
+  transform: scale(1.15);
 }
