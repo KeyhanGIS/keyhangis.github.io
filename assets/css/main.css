@@ -1062,6 +1062,15 @@ section,
   margin-bottom: 0.25rem;
 }
 
+/* تعریف استایل برای کلاس جدید project-title در بخش timeline-right */
+.resume .resume-wrapper .timeline .timeline-item .timeline-right .project-title {
+  color: var(--heading-color);
+  font-size: 1.15rem; /* کمی بزرگتر از متن عادی */
+  font-weight: 700; /* برجسته‌تر برای تاکید */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .resume .resume-wrapper .timeline .timeline-item .timeline-left .period {
   color: var(--accent-color);
   font-size: 0.9rem;
