@@ -799,7 +799,7 @@ section,
 
 .hero .hero-image {
   position: relative;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 
 .hero .hero-image img {
@@ -830,6 +830,12 @@ section,
   bottom: -20px;
   left: -20px;
   animation: morphShape 20s linear infinite reverse;
+}
+
+.img-fluid{
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
 @media (max-width: 991px) {
