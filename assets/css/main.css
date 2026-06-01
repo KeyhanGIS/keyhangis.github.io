@@ -1008,6 +1008,9 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
+.resume-title {
+  padding-bottom: 30px !important;
+}
 .resume .resume-wrapper .resume-block {
   margin-bottom: 3rem;
 }
@@ -1116,6 +1119,22 @@ section,
 
 .resume .resume-wrapper .timeline .timeline-item .timeline-right ul li {
   padding-bottom: 12px;
+}
+
+.resume-download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--accent-color);
+  transition: 0.3s;
+}
+
+.resume-download-link:hover {
+  opacity: 0.8;
 }
 
 /* # paper Section */
@@ -2162,3 +2181,8 @@ section,
 .source-code-link:hover i {
   transform: scale(1.15);
 }
+
+
+
+
+
