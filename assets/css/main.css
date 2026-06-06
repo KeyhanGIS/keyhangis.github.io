@@ -1387,9 +1387,46 @@ section,
   }
 }
 
+
+/* کدهای جدید برای ادامه بخش بالا portfolio */
+
+.portfolio .portfolio-item {
+  display: flex;
+}
+
+.portfolio .portfolio-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio .portfolio-card .portfolio-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.portfolio .portfolio-card .portfolio-content .description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.portfolio .demo-video-link-wrapper {
+  margin-top: auto;
+  min-height: 48px;
+}
+
 /*--------------------------------------------------------------
-# Testimonials Section
+# End of Portfolio Section
 --------------------------------------------------------------*/
+
+
+
+/* ----------------------------------------------
+# Testimonials Section
+-------------------------------------------------------------- */
 .testimonials .testimonials-slider {
   width: 100%;
   position: relative;
@@ -2123,6 +2160,7 @@ section,
   flex-wrap: wrap;
   gap: 20px;
   align-items: center;
+  min-height: 48px;
 }
 
 .demo-video-link {
