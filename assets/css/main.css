@@ -10,6 +10,78 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+
+
+/*==========================================================================
+  ۱. تنظیمات بارگذاری محلی فونت‌ها (سقوط آزاد زمان LCP و مستقل از گوگل)
+============================================================================ */
+
+/* --- فونت QUESTRIAL --- */
+@font-face {
+  font-display: swap;
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/questrial-v19-latin-regular.woff2') format('woff2');
+}
+
+/* --- فونت NOTO SANS --- */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-sans-v42-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/noto-sans-v42-latin-500.woff2') format('woff2');
+}
+
+/* --- فونت ROBOTO --- */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2');
+}
+
+
+/*--------------------------------------------------------------
+# Font & Color Variables
+# Help: https://bootstrapmade.com/color-system/
+--------------------------------------------------------------*/
+/* Fonts */
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --heading-font: "Questrial",  sans-serif;
+  --nav-font: "Noto Sans",  sans-serif;
+}
+
+/* بقیه کدهای قالب  در ادامه... */
+
+
+
+
+
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -2224,5 +2296,26 @@ section,
 
 
 
+
+
+
+/*--------------------------------------------------------------
+# ماژول‌های اختصاصی و بهینه‌سازی سرعت بارگذاری لایت‌هاوس
+--------------------------------------------------------------*/
+
+/* استایل بهینه‌شده برای بخش وضعیت پذیرش پروژه‌های بین‌المللی و دورکاری */
+.remote-availability-badge {
+  background-color: #f8f9fa;
+  padding: 1rem 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  border-left: 4px solid var(--accent-color);
+}
+
+
+/* انتهای کدهای اضافه شده برای بهبود سرعت */
 
 
